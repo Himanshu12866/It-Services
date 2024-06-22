@@ -1,0 +1,1143 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  left: 0;
+  right: 0;
+  overflow-x: hidden;
+}
+.header {
+  background-image: linear-gradient(rgba(4, 9, 30, 0.579), rgba(0, 0, 0, 0.807)),
+    url("./Image/rodeo-project-management-software-ONe-snuCaqQ-unsplash.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100vh;
+}
+.navbar {
+  height: auto;
+  padding: 10px;
+  z-index: 10;
+}
+.navbar-toggler {
+  border: none;
+}
+.nav-link {
+  color: white;
+  transition: 0.3s;
+}
+.bi-list {
+  color: white;
+  font-size: 25px;
+}
+.bi-bag {
+  color: rgb(255, 255, 255);
+  font-size: 25px;
+  padding-right: 5px;
+}
+.navbar {
+  background-color: rgb(0, 0, 0);
+}
+.bi-app-indicator,
+.bi-search {
+  display: none;
+}
+.input-group .bi-search {
+  display: inline;
+}
+
+input,
+.bi-search {
+  background-color: rgba(7, 29, 35, 0.708) !important;
+  color: white !important;
+}
+.nav-link:hover {
+  color: rgb(239, 0, 0);
+}
+.header-text {
+  width: 100%;
+  height: 500px;
+  text-align: center;
+}
+.header-text .text {
+  margin-top: 60px;
+}
+.header-text .text-1 {
+  color: white;
+  font-size: 40px;
+  font-weight: bold;
+  /* margin-bottom: -30px; */
+  /* line-height: 30px; */
+  font-family: "Times New Roman", Times, serif;
+  margin-bottom: 20px;
+}
+.header-text p {
+  color: white;
+  font-size: 18px;
+  line-height: 20px;
+  /* margin-top: 30px; */
+}
+.header-text .btn-danger {
+  padding: 12px 15px;
+  margin-top: 30px;
+  font-size: 15px !important;
+}
+.section-2 {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  position: relative;
+  margin-bottom: 100px;
+}
+.feature {
+  margin-top: 80px;
+  width: 100%;
+  height: 25px;
+  font-size: 14px;
+  color: grey;
+  text-align: center;
+  transition: 0.2s linear;
+  letter-spacing: 5px;
+}
+.feature:hover {
+  letter-spacing: 1px;
+}
+.section-2 .row {
+  width: 80%;
+  margin-top: 20px;
+}
+.section-2 .row .col-lg-4 {
+  text-align: center;
+  padding: 10px;
+}
+.section-2 .row .col-lg-4 i {
+  font-size: 90px;
+  text-align: center;
+  color: grey;
+  transition: 0.2s linear;
+}
+.section-2 .row .col-lg-4 i:hover {
+  color: rgb(239, 0, 0);
+}
+.section-2 .row .col-lg-4 div {
+  color: grey;
+  padding: 10px;
+}
+.section-2 .row .col-lg-4 p {
+  color: grey;
+  padding: 25px;
+  text-align: center;
+}
+.section-3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  margin-top: -100px;
+
+  background-color: rgb(246, 246, 248);
+}
+
+.section-3 .row {
+  width: 80%;
+}
+.section-3 .col-lg-6 img {
+  width: 100%;
+  height: auto;
+}
+.section-3 .section-3-text p {
+  text-align: justify;
+  font-size: 15px;
+}
+.section-3 .section-3-text button {
+  border: none;
+  background-color: transparent;
+  font-family: serif;
+  padding: 8px 12px 8px 12px;
+  border: 2px solid rgb(239, 0, 0);
+  border-radius: 30px;
+  margin: 10px 10px 30px 10px;
+  transition: 0.3s ease-in-out;
+}
+.section-3 .section-3-text button:hover {
+  color: rgb(255, 255, 255);
+  background-color: rgb(239, 0, 0);
+  transform: translateX(5px);
+}
+.section3-1 {
+  background-color: white;
+  margin-top: 60px;
+}
+.section3-1 .col-lg-6 h3 {
+  padding: 20px;
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
+.section3-1 .col-lg-6 .section3-1-text {
+  padding: 10px;
+}
+.section3-1 .col-lg-6 .section3-1-text div span {
+  padding-right: 15px;
+  margin-bottom: 100px;
+  color: rgb(239, 0, 0);
+}
+.section3-1 .col-lg-6 .section3-1-text div:hover {
+  color: rgb(239, 0, 0);
+}
+.section3-1 .col-lg-6 .section3-1-text div {
+  font-size: small;
+  padding: 0;
+  margin: 0;
+  text-align: justify;
+  cursor: pointer;
+}
+.section-4 {
+  width: 100%;
+  max-height: 149vh;
+  min-height: 100vh;
+  background-image: linear-gradient(
+      rgba(4, 9, 30, 0.705),
+      rgba(4, 9, 30, 0.675)
+    ),
+    url("./Image/mario-gogh-VBLHICVh-lI-unsplash.jpg");
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+}
+.section-4 .section-4-text {
+  margin-top: 100px;
+  text-align: center;
+}
+
+.section-4 .section-4-text .icon {
+  width: 60px;
+  height: 60px;
+  display: flex;
+  margin: auto;
+  margin-bottom: 30px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  transition: 0.3s ease;
+  border: 3px solid rgba(245, 245, 245, 0.602);
+}
+.section-4 .section-4-text .icon .bi-play {
+  color: whitesmoke;
+  padding: 8px;
+  font-size: 35px;
+  margin: auto;
+}
+.section-4 .section-4-text .icon:hover {
+  transform: scale(1.15);
+  /* padding: 5px; */
+  cursor: pointer;
+  border-color: white;
+}
+.section-4 .section-4-text .div-text {
+  /* margin-top: 10px; */
+  color: white;
+  font-size: 55px;
+  margin-bottom: -15px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  letter-spacing: 2px;
+  font-weight: bold;
+}
+.section-4 .section-4-text p {
+  color: white;
+  margin-bottom: -0px;
+}
+.section-4 .section-4-text .section-4-img {
+  margin-top: 15px;
+}
+.section-4 .section-4-text .section-4-img img {
+  width: 100%;
+}
+
+.section-5 {
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  text-align: center;
+}
+.section-5 h3 {
+  margin-top: 10px;
+  font-weight: bold;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+.section-5 .row .col-lg-6 img {
+  width: 100%;
+}
+.section-5 .row .col-lg-6 {
+  text-align: center;
+  width: 50%;
+
+  /* align-items: center; */
+}
+.section-5 .row .col-lg-6 div {
+  width: 100%;
+  margin-top: 50px;
+  padding: 50px;
+  margin-left: 60px;
+}
+.section-5 .row .col-lg-6 div h2 {
+  color: grey;
+  font-size: 25px;
+  text-align: left;
+  font-weight: unset;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.section-5 .row .col-lg-6 div p {
+  color: grey;
+  font-size: 16px;
+  text-align: left;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.section-5 .row .col-lg-6 .data {
+  text-align: left;
+  margin-top: -20px;
+  margin-left: 10px;
+  color: grey;
+  padding: 10px;
+  font-weight: unset;
+}
+.section-5 .row .col-lg-6 .data h3 i {
+  font-size: 60px;
+  padding: 15px;
+}
+.section-6 {
+  height: 100vh;
+}
+.section-6 .row .col-lg-6 .carousel .carousel-inner .carousel-item img {
+  width: 100%;
+  max-height: 500px;
+}
+.section-6 .row .col-lg-6 .carousel .carousel-inner .caption {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  text-align: center;
+}
+.section-6 .row .col-lg-6 .carousel .carousel-inner .caption .section-6-text {
+  overflow: hidden;
+}
+.section-6 .row .col-lg-6 .carousel .carousel-inner .section-6-text h2 {
+  /* padding-top: 10px; */
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: bold;
+  font-size: 40px;
+  text-align: center;
+}
+
+.section-6 .row .col-lg-6 .carousel .carousel-inner .section-6-text p {
+  margin-bottom: -1px;
+  color: darkgrey;
+  margin-top: 5px;
+  text-align: center;
+  padding: 0 10px 0 10px;
+}
+.section-6 .row .col-lg-6 .carousel .carousel-inner .section-6-text h6 {
+  color: grey;
+  font-weight: bold;
+}
+.bi-arrow-left,
+.bi-arrow-right {
+  color: black;
+  font-size: 30px;
+}
+.section-7 {
+  background-image: linear-gradient(
+      rgba(236, 51, 90, 0.68),
+      rgba(236, 51, 90, 0.68)
+    ),
+    url("./Image/cherrydeck-05gac-Qn0k4-unsplash.jpg");
+  width: 100%;
+  height: 500px;
+  background-position: center;
+  background-size: cover;
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+  text-align: center;
+}
+.section-7 .carousel {
+  padding-top: 150px;
+}
+.section-7 .carousel-inner .carousel-item img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+.section-7 .carousel .carousel-indicators {
+  margin-top: 100px;
+}
+.carousel-indicators button {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: none;
+  background-color: rgba(0, 0, 0, 0.5);
+  margin: 0 5px;
+  cursor: pointer;
+
+  transition: background-color 0.3s ease;
+}
+.carousel-indicators [data-bs-target] {
+  box-sizing: content-box;
+  flex: 0 1 auto;
+  width: 15px;
+  height: 15px;
+  padding: 0;
+  margin-right: 3px;
+  margin-right: 3px;
+  margin-left: 3px;
+  text-indent: -999px;
+  cursor: pointer;
+  background-color: #ffffff;
+  background-clip: padding-box;
+  border: 0;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  opacity: 0.5;
+  transition: opacity 0.6s ease;
+  border-radius: 100%;
+}
+.carousel-indicators button.active {
+  background-color: #ff0000;
+}
+.section-7 .carousel .carousel-inner {
+  height: 350px;
+}
+.section-7 .carousel .carousel-inner .carousel-item p {
+  padding-left: 370px;
+  padding-right: 370px;
+  color: white;
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-bottom: 20px;
+}
+.section-7 .carousel .carousel-inner .carousel-item h5 {
+  color: white;
+  font-weight: bold;
+  font-size: 15px;
+  padding-top: 10px;
+}
+.section-7 .carousel .carousel-inner .carousel-item i {
+  color: rgb(255, 255, 255);
+  font-size: 15px;
+}
+.section-8 {
+  width: 100%;
+  height: 110vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  background-color: #f3f2f2ca;
+}
+.section-8 .row {
+  width: 80%;
+  margin: auto;
+}
+.section-8 .col-lg-4 {
+  position: relative;
+  transition: 0.3s linear;
+  height: 350px;
+  overflow: hidden;
+}
+
+.section-8 .row .col-lg-4 img {
+  width: 100%;
+  height: 350px;
+  display: block;
+}
+.section-8 .row .overlay {
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  right: 0;
+  margin: 0 30px 0 10px;
+  background-color: rgba(236, 51, 90, 0.68);
+  overflow: hidden;
+  width: 0;
+  height: 100%;
+  padding: 15px 20px 0 20px;
+  color: white;
+  transition: 0.5s ease;
+}
+
+.col-lg-4:hover .overlay {
+  bottom: 0;
+  width: 100%;
+  margin: 0 30px 0 10px;
+}
+.section-8 .row .col-lg-4 .overlay .overlay-text {
+  margin-top: 40px;
+  padding: 15px;
+}
+.section-8 .row .col-lg-4 .overlay h3 {
+  color: white;
+  font-weight: bold;
+}
+.section-8 .row .col-lg-4 .overlay h4 {
+  font-size: 20px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: bold;
+
+  color: rgb(255, 255, 255);
+}
+.section-8 .row .col-lg-4 .overlay .overlay-text a {
+  color: white;
+  padding: 10px;
+  font-size: 20px;
+  transition: 0.3s;
+}
+.section-8 .row .col-lg-4 .overlay .overlay-text a:hover {
+  opacity: 0.6;
+}
+.section-8 .overview-text {
+  padding-left: 27%;
+  padding-right: 27%;
+  font-size: 17px;
+  color: grey;
+  margin-top: 40px;
+  text-align: center;
+}
+
+.section-8 .row .feature {
+  margin-top: 100px;
+  padding-bottom: 30px;
+}
+.section-8 .row h2 {
+  margin: 20px 0 30px 0;
+  color: rgb(3, 36, 63);
+  font-family: "Times New Roman", Times, serif;
+}
+.section-9-menu {
+  text-align: center;
+  margin-top: 100px;
+  position: relative;
+}
+.section-9-menu span {
+  padding-right: 20px;
+  opacity: 0.3;
+  transition: 0.2s;
+  font-family: "Times New Roman", Times, serif;
+}
+.section-9-menu span:hover {
+  opacity: 1;
+  cursor: pointer;
+}
+.section-9-menu .active {
+  opacity: 1;
+}
+.section-9-menu i {
+  font-size: 8px;
+  top: -5px;
+  left: 40.5%;
+  position: absolute;
+}
+.section-9 {
+  width: 100%;
+  height: 90vh;
+  margin-top: 100px;
+  margin-bottom: 150px;
+}
+
+.section-9 .row {
+  padding: 10px;
+}
+.section-9 img {
+  width: 100%;
+  height: 100%;
+}
+/* First Overlay Has been started  */
+
+.section-9 .row .col-lg-8 .row .col-lg-6 {
+  position: relative;
+  transition: 0.3s;
+}
+.section-9 .row .col-lg-8 .row .col-lg-6:hover .overlay {
+  opacity: 1;
+  background-color: rgba(4, 0, 0, 0.623) !important;
+
+}
+
+.section-9 .row .col-lg-8 .row .col-lg-6 .overlay {
+  width: 95%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  cursor: crosshair;
+  color: rgb(255, 0, 0);
+  opacity: 0;
+  transition: 0.3s;
+  margin-right: -30px;
+  background-color: rgba(4, 0, 0, 0.623) !important;
+}
+.section-9 .row .col-lg-8 .row .col-lg-6 .overlay .inside-overlay {
+  top: 60%;
+  position: absolute;
+  left: 10%;
+}
+.section-9 .row .col-lg-8 .row .col-lg-6 .overlay span {
+  top: 30px;
+  position: absolute;
+  left: 50px;
+  letter-spacing: 2px;
+}
+.section-9 .row  .inside-overlay h4 {
+  font-size: 25px;
+  font-family:"Cinzel" , serif ;
+color: rgb(0, 255, 208);
+text-shadow: 0 3px 3px red;
+  opacity: 0;
+  font-weight: bold;
+  transform: translateX(60px);
+  transition: 0.4s;
+}
+.section-9 .row .col-lg-8 .row .col-lg-6:hover .overlay h4 {
+  transform: translateX(0px);
+  opacity: 1;
+}
+.section-9 .row  .inside-overlay p {
+  transform: translateX(-60px);
+  opacity: 0;
+  color: rgb(255, 0, 0);
+  transition: 0.2s;
+}
+.section-9 .row .col-lg-8 .row .col-lg-6:hover .overlay p {
+  transform: translateX(0px);
+  opacity: 1;
+}
+
+/* First Overlay Has Been ended  */
+
+.section-9 .row .row .col-lg-3 {
+  position: relative;
+  transition: 0.3s;
+}
+.section-9 .row .row .col-lg-3:hover .overlay {
+  opacity: 1;
+}
+.section-9 .row .row .col-lg-3 .overlay {
+  width: 90%;
+  height: 100%;
+  position: absolute;
+  cursor: crosshair;
+  top: 0;
+  color: rgb(255, 0, 0);
+
+  opacity: 0;
+  transition: 0.3s;
+  margin-right: -30px;
+  background-color: rgba(4, 0, 0, 0.623);
+}
+.section-9 .row .row .col-lg-3 .overlay .inside-overlay {
+  top: 60%;
+  position: absolute;
+  left: 10%;
+  z-index: 10;
+}
+.section-9 .row .row .col-lg-3 .overlay span {
+  top: 30px;
+  position: absolute;
+  left: 30px;
+  letter-spacing: 2px;
+}
+
+.section-9 .row .row .col-lg-3:hover .overlay h4 {
+  transform: translateX(0px);
+  opacity: 1;
+}
+.section-9 .row .row .col-lg-3 .overlay .inside-overlay p {
+  transform: translateX(-60px);
+  opacity: 0;
+  color: rgb(255, 0, 0);
+  transition: 0.2s;
+}
+.section-9 .row .row .col-lg-3:hover .overlay p {
+  transform: translateX(0px);
+  opacity: 1;
+}
+
+/* Secong Overlay Effect has been ended  */
+
+/* Thisrd Overlay Effect Has Been Started */
+
+.section-9 .row .col-lg-4 .row .col-lg-12 {
+  position: relative;
+  transition: 0.3s;
+}
+.section-9 .row .col-lg-4 .row .col-lg-12:hover .overlay {
+  opacity: 1;
+  margin-top: 10px;
+  margin-bottom: 50px;
+}
+.section-9 .row .col-lg-4 .row .col-lg-12 .overlay {
+  width: 95.5%;
+  height: 97%;
+  position: absolute;
+  top: 0;
+  cursor: crosshair;
+  color: rgb(255, 0, 0);
+  opacity: 0;
+  transition: 0.3s;
+  margin-top: 10px;
+  margin: 0;
+  z-index: 0;
+  margin-bottom: 50px;
+  background-color: rgba(4, 0, 0, 0.623);
+}
+.section-9 .row .col-lg-4 .row .col-lg-12 .overlay .inside-overlay {
+  top: 55%;
+  position: absolute;
+  left: 10%;
+}
+.section-9 .row .col-lg-4 .row .col-lg-12 .overlay span {
+  top: 30px;
+  position: absolute;
+  left: 50px;
+  letter-spacing: 2px;
+}
+
+.section-9 .row .col-lg-4 .row .col-lg-12:hover .overlay h4 {
+  transform: translateX(0px);
+  opacity: 1;
+}
+.section-9 .row .col-lg-4 .row .col-lg-12 .overlay .inside-overlay p {
+  transform: translateX(-60px);
+  opacity: 0;
+  color: rgb(255, 0, 0);
+  transition: 0.2s;
+}
+.section-9 .row .col-lg-4 .row .col-lg-12:hover .overlay p {
+  transform: translateX(0px);
+  opacity: 1;
+}
+
+.section-10 {
+  background-image: linear-gradient(
+      rgba(173, 166, 166, 0.221),
+      rgba(166, 163, 163, 0.221)
+    ),
+    url("./Image/peakpx.jpg");
+  width: 100%;
+  height: auto;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  margin-top: 30px;
+  z-index: -2;
+  padding-bottom: 20px;
+  display: block;
+  text-align: center;
+}
+.section-10 .heading {
+  padding-top: 100px !important;
+  margin-bottom: 50px;
+
+  font-size: 40px;
+}
+.section-10 .heading span {
+  font-family: "Cinzel";
+}
+.section-10 .data-box {
+  width: 80%;
+  margin-top: 60px;
+  display: flex;
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+}
+.section-10 .data-box h3 {
+  font-family: "Cinzel", serif;
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+
+.section-10 .data-box .row {
+  width: 100%;
+}
+
+.section-10 .data-box .row .col-lg-4 .box {
+  width: 100%;
+  height: auto;
+  background-color: rgba(255, 255, 255, 0.382);
+  border-radius: 30px;
+  padding: 10px;
+  font-family: "Cinzel", serif;
+  margin-top: 20px;
+  margin-top: 50px;
+  cursor: pointer;
+  box-shadow: inset 0 -3em 3em rgb(0 200 0 / 30%), 0 0 0 2px white,
+    0.3em 0.3em 1em rgb(200 0 0 / 60%);
+}
+.section-10 .data-box .row .col-lg-4 {
+  transition: 0.3s linear;
+}
+
+.section-10 .data-box .row .col-lg-4 .box h3 {
+  font-size: 65px;
+}
+.section-10 .data-box .row .col-lg-4 .box h4 {
+  font-family: "Cinzel";
+  color: rgba(225, 16, 61, 0.68);
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+.section-10 .data-box .row .col-lg-4 .box p {
+  font-family: inherit;
+  font-weight: bold;
+  color: rgb(0, 92, 128);
+}
+.section-10 button {
+  transition: 0.3s;
+}
+.section-10 button:hover {
+  background-color: #10e1a9;
+}
+
+.section-10 .data-box .row .col-lg-4:hover {
+  color: red;
+  background-color: darkgray !important;
+}
+
+.section-11 {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  width: 80%;
+  background-color: white;
+  height: auto;
+  margin: auto;
+  position: relative;
+  margin-top: 100px;
+  margin-bottom: 20px;
+}
+.section-11 .carousel .carousel-inner,
+.carousel-item img {
+  width: 100%;
+}
+.section-12 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.698), rgba(0, 0, 0, 0.693)),
+    url("./Image/image-meeting.jpg");
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+.section-12 .row {
+  width: 80%;
+  padding: 10px;
+}
+
+.section-12 .row .col-lg-6 img {
+  width: 100%;
+}
+.section-12 .row .col-lg-6 .form-box {
+  background-color: rgba(255, 255, 255, 0.277);
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  color: white;
+  font-family: "Cinzel";
+  padding: 20px;
+}
+.section-12 .row .col-lg-6 .form-box h2 {
+  font-size: 40px;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  margin-bottom: 10px;
+  border-bottom: 2px solid rgb(138, 138, 138);
+}
+.section-12 .row .col-lg-6 .form-box h2,
+h3,
+p {
+  font-family: "Cinzel";
+  /* padding: 10px; */
+}
+.section-12 .row .col-lg-6 .form-box input {
+  width: 100%;
+  /* margin: 20px; */
+  padding: 10px;
+  border: none;
+  border-right: 2px solid rgba(255, 0, 0, 0.646);
+  border-bottom: 2px solid rgba(255, 0, 0, 0.585);
+  margin-top: 15px;
+  background-color: rgba(138, 138, 138, 0.603) !important;
+}
+::placeholder {
+  color: white;
+}
+.section-12 .row .col-lg-6 .form-box input:focus {
+  border: none;
+  border-right: 2px solid rgba(0, 255, 55, 0.646);
+  border-bottom: 2px solid rgba(0, 255, 13, 0.585);
+  outline: none;
+}
+.section-12 .row .col-lg-6 .form-box .btnsub {
+  width: 100%;
+  /* margin: 20px; */
+  padding: 10px;
+  border: none;
+  transition: 0.3s linear;
+  margin-top: 15px;
+  color: white;
+  background-color: rgba(222, 17, 17, 0.603) !important;
+}
+.section-12 .row .col-lg-6 .form-box .btnsub:hover {
+  background-color: rgba(0, 255, 0, 0.603);
+}
+
+.section-13 {
+  width: 100%;
+  height: 75vh;
+  min-height: auto;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  margin: auto;
+  background-color: rgba(0, 0, 0, 0.904);
+}
+.section-13 .row {
+  width: 75%;
+  margin-top: 100px;
+  height: auto;
+}
+.section-13 .row .col-lg-3 {
+  height: auto;
+  color: white;
+}
+.section-13 .row .col-lg-3 h5 {
+  font-family: "Cinzel";
+  font-size: 15px;
+}
+.section-13 .row .col-lg-3 ul li,
+.section-13-p {
+  font-family: "Cinzel";
+  font-size: 12px;
+  text-align: left;
+}
+.section-13 .row .col-lg-3 ul {
+  padding-left: 5px;
+}
+.section-13 .row .col-lg-3 ul li a {
+  text-decoration: none;
+  padding: 10px;
+  transition: 0.3s linear;
+  color: rgb(189, 186, 186);
+}
+.section-13 .row .col-lg-3 ul li span {
+  padding-right: 10px;
+}
+.section-13 .row .col-lg-3 ul li a:hover {
+  color: white;
+  text-decoration: underline;
+}
+hr {
+  width: 100%;
+  background-color: grey;
+  height: 3px;
+  border-radius: 10px;
+  margin-bottom: 50px;
+}
+.section-13 .row .footer {
+  text-align: center;
+  color: white;
+  padding: 10px;
+}
+.section-13 .row .footer p a {
+  /* text-decoration: none; */
+  color: rgb(89, 255, 0);
+}
+.upbtn {
+  width: 50px;
+  height: 50px;
+  background-color: rgba(192, 192, 192, 0.818);
+  position: sticky;
+  top: 450px;
+  border-radius: 50%;
+  z-index: 10;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  color: rgb(0, 0, 0);
+  box-shadow: inset 0 -3em 3em rgb(0 200 0 / 30%), 0 0 0 2px white,
+    0.3em 0.3em 1em rgb(200 0 0 / 60%);
+
+  font-weight: bold;
+  transition: 0.3s;
+  left: 300px;
+}
+.topbtn {
+  right: 50px !important;
+  position: absolute;
+}
+.upbtn:hover {
+  box-shadow: none;
+  background-color: black;
+  color: white;
+}
+.modal-content {
+  background-color: rgba(255, 255, 255, 0.602);
+  color: rgb(255, 255, 255) !important;
+  text-align: center;
+}
+input{
+  font-family: "Cinzel";
+}
+.modal-box{
+  display: none;
+  position: fixed;
+  z-index: 10;
+  padding-top: 100px;
+  left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    /* overflow: hidden; */
+    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.807);
+}
+
+.modal-content{
+  margin: auto;
+  display: block;
+  width: 80%;
+}
+#caption{
+  margin: auto;
+  display: block;
+  width: 80%;
+  text-align: center;
+  padding: 10px;
+  height: 100px;
+ 
+}
+.modal-content , #caption {
+  
+  animation-name: zoom;
+  animation-duration: .6s ;
+}
+@keyframes zoom {
+  from{
+    transform: scale(0);
+  }
+  to{
+    transform: scale(1);
+  }
+  
+}
+.close{
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color: #f1f1f1;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+  cursor: pointer;}
+
+
+
+/* .modal-box-1{
+  display: none;
+  position: fixed;
+  z-index: 10;
+  padding-top: 100px;
+  left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.807);
+}
+
+.modal-content-1{
+  margin: auto;
+  display: block;
+  width: 80%;
+}
+#caption{
+  margin: auto;
+  display: block;
+  width: 80%;
+  text-align: center;
+  padding: 10px;
+  height: 100px;
+ 
+}
+.modal-content-1 , #caption {
+  
+  animation-name: zoom;
+  animation-duration: .6s ;
+}
+@keyframes zoom {
+  from{
+    transform: scale(0);
+  }
+  to{
+    transform: scale(1);
+  }
+  
+}  */
+  .vdo-box{
+  width: 100%;
+  height: 100vh;
+ z-index: 100;
+ display: none;
+ position: absolute;
+  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.807);
+  margin-top: 100px;
+  padding: 20px;
+  transform: scale(0);
+  transition: .3s;
+  transform: scale(0);
+  transition: transform 0.6s ease;
+}
+.vdo-box video{
+  width: 100%;
+  height: 100%;
+
+
+}
+
+
+@keyframes slideIn {
+  from {
+      transform: scale(0);
+  }
+  to {
+      transform: scale(1);
+  }
+}
+
+
+
+.vdo-box span{
+  color: white;
+  font-size: 30px;
+  cursor: pointer;
+  right: 10px;
+  z-index: 1000;
+  position: absolute;
+}

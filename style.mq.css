@@ -1,0 +1,387 @@
+@media (min-width: 1200px) {
+  #lists {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* margin-left: -100px; */
+    color: white;
+  }
+  .navbar-brand {
+    padding-left: 220px;
+  }
+  .navbar-brand img {
+    width: 100px;
+  }
+  .list-1 {
+    margin-left: -20px;
+    padding: 10px;
+  }
+  .nav-item {
+    margin-right: 25px;
+  }
+  .nav-link {
+    font-size: 16px;
+  }
+  .bi-bag {
+    display: none;
+  }
+  .navbar {
+    background-color: transparent;
+  }
+  .nav-link::after {
+    content: "";
+    width: 0;
+    height: 2px;
+    background: hwb(0 0% 0% / 0.763);
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+  }
+
+  .nav-link:hover::after {
+    width: 100%;
+  }
+  .bi-app-indicator,
+  .bi-search {
+    display: block;
+  }
+  .input-group {
+    display: none;
+  }
+  .bi-search {
+    background-color: transparent !important;
+  }
+  .header-text .text-1 {
+    color: white;
+    font-size: 100px;
+    font-weight: bold;
+    margin-bottom: -30px;
+    line-height: 120px;
+    font-family: "Times New Roman", Times, serif;
+  }
+  .header-text p {
+    color: white;
+    font-size: 18px;
+    line-height: 8px;
+    margin-top: 30px;
+    margin-bottom: -10px;
+  }
+  .section-3 .section-3-text {
+    margin: 20px;
+    padding: 10px;
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  }
+  .section3-1 .col-lg-6 .section3-1-text div {
+    padding: 10px;
+  }
+  .section3-1 .col-lg-6 .section3-1-text div {
+    font-size: 15px;
+  }
+  .section-6 .row .col-lg-6 .carousel .carousel-inner {
+    padding: 100px;
+  }
+  .section-9 .row .col-lg-4 .row .col-lg-12 img {
+    width: 30vw;
+  }
+}
+
+@media (max-width: 500px) {
+  body {
+    height: auto;
+  }
+
+  .section-3 {
+    display: flex;
+margin-top: 100%;
+    position: relative;
+  
+    background-color: rgb(246, 246, 248);
+  }
+  .bi-cart-check{
+    display: none;
+  }
+  .section3-1{
+    margin-top: 100px;
+  }
+  .section-4 .section-4-text .div-text {
+    /* margin-top: 10px; */
+    color: white;
+    font-size: 25px;
+    margin-bottom: -15px;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+      "Lucida Sans", Arial, sans-serif;
+    letter-spacing: 2px;
+    font-weight: bold;
+  }
+  .section-5 .row {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-left: 0;
+    padding-left: 0;
+  }
+  .section-5 h3 {
+    font-size: 20px;
+  }
+  .section-5 .row .col-lg-6 {
+    width: 100%;
+    text-align: center;
+    margin-left: -50px;
+    padding-left: 0;
+  }
+  .section-5 .row .col-lg-6 div h2 {
+    font-size: 15px;
+    text-align: center;
+  }
+  .section-5 .row .col-lg-6 div .paragraph {
+    display: none;
+  }
+  .section-5 .row .col-lg-6 div p {
+    font-size: 15px;
+    text-align: center;
+  }
+  .section-5 .row .col-lg-6 img {
+    display: none;
+  }
+  .section-5 .row .col-lg-6 div .data {
+    margin-left: -5px;
+  }
+  .section-5 .row .col-lg-6 div .data h3 i {
+    padding-left: 70px;
+    padding-right: 70px;
+  }
+  .section-5 .row .col-lg-6 div .data h3 {
+    text-align: center;
+  }
+  .section-7 .carousel .carousel-inner {
+    height: 370px;
+  }
+  .section-7 .carousel {
+    padding-top: 50px;
+  }
+  .section-7 .carousel .carousel-inner .carousel-item p {
+    padding-left: 70px;
+    padding-right: 70px;
+    color: white;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 20px;
+    text-align: justify;
+  }
+  .section-6 .carousel .carousel-inner .carousel-item img {
+    height: 300px;
+  }
+  .section-8 {
+    height: 200vh;
+  }
+  .section-8 .row {
+    width: 95%;
+  }
+  .section-8 .row .col-lg-4 {
+    margin-bottom: 20px;
+  }
+  .section-8 .row .col-lg-4 img {
+    width: 100%;
+    height: 320px;
+    display: block;
+  }
+  .section-8 .overview-text {
+    padding-left: 27px;
+    padding-right: 27px;
+    font-size: 17px;
+    color: grey;
+    margin-top: 40px;
+    text-align: justify;
+  }
+  .section-8 .row .feature {
+    margin-top: 50px;
+    padding-bottom: 30px;
+  }
+  .section-9 .row .col-lg-4 .row .col-lg-12 img {
+    width: 90vw;
+  }
+  .section-9-menu span {
+    padding: 0 15px 0 15px;
+  }
+  .section-9-menu i {
+    font-size: 8px;
+    top: -5px;
+    left: 20%;
+    position: absolute;
+  }
+  .section-9 {
+    width: 100%;
+    height: 150vh;
+    margin-top: 100px;
+    position: relative;
+  }
+  .section-9 .row .col-lg-8 .row .col-lg-6 {
+    margin-bottom: 20px;
+  }
+  .section-9 .row .col-lg-8 .row .col-lg-6 {
+    height: 300px;
+  }
+  .section-9 .row .col-lg-8 .row .col-lg-6 .overlay {
+    width: 93%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    color: white;
+    opacity: 0;
+    transition: 0.3s;
+    margin-right: -30px;
+    background-color: rgba(4, 0, 0, 0.623);
+  }
+  .section-9 .row .row .col-lg-3 {
+    margin-bottom: 10px;
+  }
+  .section-9 .row .row .col-lg-3 .overlay {
+    width: 93%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    color: white;
+    opacity: 0;
+    transition: 0.3s;
+    margin-right: -30px;
+    background-color: rgba(4, 0, 0, 0.623);
+  }
+  .section-9 .row .col-lg-4 .row .col-lg-12 .overlay {
+    width: 97%;
+    height: 97%;
+    position: absolute;
+    top: 0;
+    cursor: crosshair;
+    color: white;
+    opacity: 0;
+    transition: 0.3s;
+    margin-top: 10px;
+    margin: 0;
+    margin-bottom: 50px;
+    background-color: rgba(4, 0, 0, 0.623);
+  }
+  .section-10 {
+  margin-top: 400%;
+  }
+  .section-10 .heading {
+    padding-top: 30px !important;
+    margin-bottom: 15px;
+    font-family: "Cinzel";
+    font-size: 20px;
+  }
+  .section-10 .data-box {
+    width: 95%;
+    margin-top: 60px;
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .section-10 .data-box .row .col-lg-4 .box {
+    width: 100%;
+    height: 400px;
+    background-color: white;
+    border-radius: 30px;
+    padding: 5px;
+    font-family: "Cinzel", serif;
+    margin-top: 20px;
+    margin-top: 50px;
+    cursor: pointer;
+  }
+  .section-10 .data-box .row .col-lg-4 .box h3 {
+    font-size: 35px;
+    margin-bottom: 0;
+  }
+  .section-10 .data-box .row .col-lg-4 {
+    transition: 0.3s linear;
+  }
+  .section-10 .data-box .row .col-lg-4:hover {
+    transform: translateY(10px);
+  }
+  .section-11 {
+    width: 100%;
+    display: block;
+  }
+  .section-12 {
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0.698),
+        rgba(0, 0, 0, 0.693)
+      ),
+      url("./Image/image-meeting.jpg");
+    width: 100%;
+    height: 125vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+  }
+  .section-12 .row {
+    width: 100%;
+    padding: 10px;
+  }
+
+  .section-12 .row .col-lg-6 img {
+    width: 100%;
+    height: 250px;
+  }
+  .section-12 .row .col-lg-6 .form-box {
+    background-color: rgba(255, 255, 255, 0.277);
+    width: 100%;
+    height: auto;
+    text-align: center;
+    color: white;
+    font-family: "Cinzel";
+    padding: 20px;
+  }
+  .section-12 .row .col-lg-6 .form-box h2 {
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    margin-bottom: 20px;
+    border-bottom: 2px solid rgb(138, 138, 138);
+  }
+  .section-12 .row .col-lg-6 .form-box h2,
+  h3,
+  p {
+    font-family: "Cinzel";
+    
+  }
+  .section-12 .row .col-lg-6 .form-box input {
+    width: 100%;
+    /* margin: 20px; */
+    padding: 10px;
+    border: none;
+    border-right: 2px solid rgba(255, 0, 0, 0.646);
+    border-bottom: 2px solid rgba(255, 0, 0, 0.585);
+    margin-top: 15px;
+    background-color: rgba(138, 138, 138, 0.603) !important;
+  }
+  ::placeholder {
+    color: white;
+  }
+  .section-12 .row .col-lg-6 .form-box input:focus {
+    border: none;
+    border-right: 2px solid rgba(0, 255, 55, 0.646);
+    border-bottom: 2px solid rgba(0, 255, 13, 0.585);
+    outline: none;
+  }
+  .section-12 .row .col-lg-6 .form-box .btnsub {
+    width: 100%;
+    /* margin: 20px; */
+    padding: 10px;
+    border: none;
+    transition: 0.3s linear;
+    margin-top: 15px;
+    color: white;
+    background-color: rgba(222, 17, 17, 0.603) !important;
+  }
+  .section-12 .row .col-lg-6 .form-box .btnsub:hover {
+    background-color: rgba(0, 255, 0, 0.603);
+  }
+  .section-13{
+    height: auto;
+  }
+}
