@@ -90,6 +90,7 @@
     height: auto;
     left: 0;
     right: 0;
+    overflow-x: hidden;
   }
   .feature{
     font-size: 25px;
