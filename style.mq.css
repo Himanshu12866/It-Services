@@ -88,6 +88,14 @@
 @media (max-width: 500px) {
   body {
     height: auto;
+    left: 0;
+    right: 0;
+  }
+  .feature{
+    font-size: 25px;
+  }
+  .section-2{
+margin-top: 100px;
   }
 
   .section-3 {

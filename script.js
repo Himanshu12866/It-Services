@@ -73,7 +73,7 @@ function CloseVdo() {
 ScrollReveal({
   reset: false,
   distance: "80px",
-  duration: 1000,
+  duration: 500,
   delay: 50,
 });
 ScrollReveal().reveal(".navbar-brand,.navbar-nav", {
