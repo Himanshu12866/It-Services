@@ -76,7 +76,7 @@ ScrollReveal({
   duration: 500,
   delay: 50,
 });
-ScrollReveal().reveal(".navbar-brand,.navbar-nav", {
+ScrollReveal().reveal(".navbar-brand,", {
   origin: "top",
 });
 ScrollReveal({
